@@ -20,12 +20,12 @@ def distance_pole_nord(long_d, long_m, long_s, lat_d, lat_m, lat_s):
 
     return(distance(longitude_X, latitude_Y, LONG_POLE_NORD, LATITUDE_POLE_NORD))
 
-D_LONG_PARIS = 48
-M_LONG_PARIS = 51
-S_LONG_PARIS = 23.81
+D_LONG_PARIS = 2
+M_LONG_PARIS = 21
+S_LONG_PARIS = 7.99
 
-D_LAT_PARIS = 2
-M_LAT_PARIS = 21
+D_LAT_PARIS = 48
+M_LAT_PARIS = 51
 S_LAT_PARIS = 7.99
 
 print (distance_pole_nord(D_LONG_PARIS, M_LONG_PARIS, 
